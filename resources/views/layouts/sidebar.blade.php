@@ -3,7 +3,7 @@
         <div class="sidebar-content">
             <div class="user">
                 <div class="avatar-sm float-left mr-2">
-                    <img src="https://ui-avatars.com/api/?name={{ Auth::user()->nama ?? 'User' }}" alt="..." class="avatar-img rounded-circle">
+                    <img src="https://ui-avatars.com/api/?name={{ Auth::user()->name ?? 'User' }}" alt="..." class="avatar-img rounded-circle">
                 </div>
                 <div class="info">
                     <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
@@ -11,7 +11,7 @@
                             {{-- @php
                                 dd(Auth::user()) ;    
                             @endphp --}}
-                            {{ Auth::user()->nama ?? 'User' }}
+                            {{ Auth::user()->name ?? 'User' }}
                             {{-- <span class="user-level">{{ ucfirst(Auth::user()->role) ?? 'Guest' }}</span> --}}
                             <span class="user-level">{{ Auth::user()->role ?? 'User' }}</span>
                         </span>

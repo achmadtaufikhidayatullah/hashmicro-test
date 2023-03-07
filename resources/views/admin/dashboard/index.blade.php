@@ -36,8 +36,8 @@
                     <h3>Hallo, {{ auth()->user()->name }} <br>Selamat datang di hasil test ACHMAD TAUFIK HIDAYATULLAH 😍</h3>
                     <hr>
 
-                    <p>Untuk mendownload file sistem ini anda bisa melakukan clone melalui github, anda bisa mengakses <a href="#!">link ini</a></p>
-                    <p>Atau bisa anda download pada <a href="">Gdrive</a></p>
+                    <p>Untuk mendownload file sistem ini anda bisa melakukan clone melalui github, anda bisa mengakses <a href="https://github.com/achmadtaufikhidayatullah/hashmicro-test" target="_blank">link ini</a></p>
+                    <p>Atau bisa anda download pada <a href="https://drive.google.com/file/d/1c7XW58_RGENKuJge6tImkP190lmBxP2_/view?usp=sharing" target="_blank">Gdrive</a></p>
 
                     <br>
                     <p class="text-muted">*disarankan mengclone dengan github untuk mempermudah 😁</p>
